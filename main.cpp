@@ -8,7 +8,7 @@ int main()
     std::cout << "1-100 ertekek duplazasa"<< std::endl;
     for (int i = 1; i < N_ELEMENTS + 1; i++)
     {
-        b[i] = i * 2;
+        b[i-1] = i * 2;
     }
     for (int i = 0; i; i++)
     {
